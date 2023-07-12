@@ -1,0 +1,33 @@
+Time complexity
+
+Notations->
+Big O - worst time complexity
+omega Ω- worst time complexity
+theta θ  - worst time complexity
+
+n+C == n 
+
+Constant time complexity --> O(1)  
+Linear Time complexity -->  O(n)  single loop
+Quadratic Time complexity -->  O(n**2)  nested loop
+Cubic Time complexity -->  O(n**3)  nested loop
+Logarithmic Time complexity 
+If input size reduces half every iterations then O(log n)
+
+Space Complexity
+if algorithm-
+
+Constant space complexity --> does not required any extra space  O(1)  
+Linear space complexity -->  O(n)  rate of extra space is equal to input
+If rate of extra space is less than inputthen O(log n)
+
+
+Objects
+Insert, Remove, Access ==> TC O(1)
+Search ==> TC O(n) --> .keys, .values, .entries
+
+Arrays
+Insert, Remove at end, Access ==> TC O(1)  -->push, pop
+Insert, Remove at start, Search==> TC O(n)  --> shift, unshift, splice, slice, concat, forEach, map , filter, reduce
+
+Integers larger than square root do not need to be checked because whenever n=a*b one of the two factors a and b is less than or equal to square root of n
